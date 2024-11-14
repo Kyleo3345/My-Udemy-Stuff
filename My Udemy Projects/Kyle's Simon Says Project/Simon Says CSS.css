@@ -1,0 +1,53 @@
+body {
+  text-align: center;
+  background-color: black;
+}
+
+#level-title {
+  font-family: 'Orbitron';
+  font-size: 3rem;
+  margin:  5%;
+  color: #00FFFF;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+  border: 15px solid lightgray;
+  border-radius: 50%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 150px white;
+  background-color: grey;
+}
